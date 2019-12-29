@@ -19,5 +19,8 @@
   - 해석 및 소스코드 설명 : https://tlstjd436.blog.me/221740591250
 - <b>핸드폰 번호 가리기</b>
   - 문제 : https://programmers.co.kr/learn/courses/30/lessons/12948
+  - 해석 및 소스코드 설명 : https://tlstjd436.blog.me/221752582810
+- <b>제일 작은 수 제거하기</b>
+  - 문제 : https://programmers.co.kr/learn/courses/30/lessons/12935
   - 해석 및 소스코드 설명 : 
 
