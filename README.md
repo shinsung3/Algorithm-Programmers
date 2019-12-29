@@ -23,4 +23,6 @@
 - <b>제일 작은 수 제거하기</b>
   - 문제 : https://programmers.co.kr/learn/courses/30/lessons/12935
   - 해석 및 소스코드 설명 : 
-
+- <b>이상한 문자 만들기</b>
+  - 문제 : https://programmers.co.kr/learn/courses/30/lessons/12930?language=java
+  - 해석 및 소스코드 설명 : 
