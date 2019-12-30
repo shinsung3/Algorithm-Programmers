@@ -24,8 +24,11 @@
   - 문제 : https://programmers.co.kr/learn/courses/30/lessons/12935
   - 해석 및 소스코드 설명 : https://tlstjd436.blog.me/221753128373
 - <b>이상한 문자 만들기</b>
-  - 문제 : https://programmers.co.kr/learn/courses/30/lessons/12930?language=java
+  - 문제 : https://programmers.co.kr/learn/courses/30/lessons/12930
   - 해석 및 소스코드 설명 : 
 - <b>﻿수박수박수박수박수박수?</b>
   - 문제 : https://programmers.co.kr/learn/courses/30/lessons/12922
+  - 해석 및 소스코드 설명 : 
+- <b>정수 내림차순으로 배치하기</b>
+  - 문제 : https://programmers.co.kr/learn/courses/30/lessons/12933
   - 해석 및 소스코드 설명 : 
