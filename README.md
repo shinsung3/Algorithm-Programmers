@@ -38,3 +38,6 @@
 - <b>행렬의 덧셈</b>
   - 문제 : https://programmers.co.kr/learn/courses/30/lessons/12950
   - 해석 및 소스코드 설명 : 
+- <b>직사각형 별찍기</b>
+  - 문제 : https://programmers.co.kr/learn/courses/30/lessons/12969
+  - 해석 및 소스코드 설명 : 
