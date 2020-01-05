@@ -47,3 +47,6 @@
 - <b>서울에서 김서방 찾기</b>
   - 문제 : https://programmers.co.kr/learn/courses/30/lessons/12919
   - 해석 및 소스코드 설명 : 
+- <b>두 정수 사이의 합</b>
+  - 문제 : https://programmers.co.kr/learn/courses/30/lessons/12912
+  - 해석 및 소스코드 설명 : 
