@@ -44,3 +44,6 @@
 - <b>K번째수</b>
   - 문제 : https://programmers.co.kr/learn/courses/30/lessons/42748
   - 해석 및 소스코드 설명 : 
+- <b>서울에서 김서방 찾기</b>
+  - 문제 : https://programmers.co.kr/learn/courses/30/lessons/12919
+  - 해석 및 소스코드 설명 : 
