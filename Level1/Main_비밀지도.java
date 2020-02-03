@@ -1,17 +1,5 @@
-import java.util.Arrays;
-import java.util.Comparator;
-
-public class Main_비밀지도 {
-
-	public static void main(String[] args) {
-		int n = 5;
-		int[] arr1 = { 9, 20, 28, 18, 11 };
-		int[] arr2 = { 30, 1, 21, 17, 28 };
-		String[] c = solution(n, arr1, arr2);
-		System.out.println(Arrays.toString(c));
-	}
-
-	static String[] solution(int n, int[] arr1, int[] arr2) {
+class Solution {
+	public String[] solution(int n, int[] arr1, int[] arr2) {
 		String[] answer = new String[arr1.length];
 		char[][] chArray1 = new char[arr1.length][arr1.length];
 		char[][] chArray2 = new char[arr1.length][arr1.length];
@@ -45,15 +33,13 @@ public class Main_비밀지도 {
 					sb.append("#");
 					continue;
 				}
-				if(chArray1[i][j] =='0' && chArray2[i][j] =='0') {
+				if (chArray1[i][j] == '0' && chArray2[i][j] == '0') {
 					sb.append(" ");
 					continue;
 				}
 			}
 			answer[i] = sb.toString();
 		}
-		
 		return answer;
-
 	}
 }
