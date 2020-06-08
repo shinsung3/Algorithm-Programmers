@@ -56,5 +56,6 @@
 #### `Level3`
 
 - [2XN 타일링](https://tlstjd436.blog.me/221985176983)
-
-- [정수 삼각형]
+- [정수 삼각형](https://tlstjd436.blog.me/221986732668)
+- [야근지수](https://tlstjd436.blog.me/221989563405)
+- [멀리 뛰기]
