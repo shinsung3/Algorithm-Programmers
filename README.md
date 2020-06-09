@@ -55,7 +55,8 @@
 
 #### `Level3`
 
-- [2XN 타일링](https://tlstjd436.blog.me/221985176983)
-- [정수 삼각형](https://tlstjd436.blog.me/221986732668)
-- [야근지수](https://tlstjd436.blog.me/221989563405)
-- [멀리 뛰기]
+- [2XN 타일링](https://tlstjd436.blog.me/221985176983) - DP
+- [정수 삼각형](https://tlstjd436.blog.me/221986732668) - DP
+- [야근지수](https://tlstjd436.blog.me/221989563405) - 우선순위 큐
+- [멀리 뛰기](https://tlstjd436.blog.me/221993630748) - DP
+- [타일 장식물](https://tlstjd436.blog.me/221982815483)
