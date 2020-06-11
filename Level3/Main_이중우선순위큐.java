@@ -12,34 +12,34 @@ public class Main_이중우선순위큐 {
 
 	static int[] solution(String[] operations) {
 		int[] answer = new int[2];
-		PriorityQueue<Integer> q = new PriorityQueue<Integer>();
-		PriorityQueue<Integer> before = new PriorityQueue<Integer>(Collections.reverseOrder());
+		PriorityQueue<Integer> minQueue = new PriorityQueue<Integer>();
+		PriorityQueue<Integer> maxQueue = new PriorityQueue<Integer>(Collections.reverseOrder());
 		for (int i = 0; i < operations.length; i++) {
 			String[] temp = operations[i].split(" ");
 			if (temp[0].equals("I")) {
 				int value = Integer.parseInt(temp[1]);
-				q.add(value);
-				before.add(value);
+				minQueue.add(value);
+				maxQueue.add(value);
 			} else {
 				if (temp[1].equals("-1")) {
-					if (q.isEmpty())
+					if (minQueue.isEmpty())
 						continue;
 					while (true) {
-						if (q.isEmpty())
+						if (minQueue.isEmpty())
 							break;
-						int a = q.poll();
-						if (before.contains(a)) {
+						int a = minQueue.poll();
+						if (maxQueue.contains(a)) {
 							break;
 						}
 					}
 				} else {
-					if (before.isEmpty())
+					if (maxQueue.isEmpty())
 						continue;
 					while (true) {
-						if (before.isEmpty())
+						if (maxQueue.isEmpty())
 							break;
-						int a = before.poll();
-						if (q.contains(a)) {
+						int a = maxQueue.poll();
+						if (minQueue.contains(a)) {
 							break;
 						}
 					}
@@ -47,9 +47,9 @@ public class Main_이중우선순위큐 {
 			}
 		}
 		while (true) {
-			if (!q.isEmpty()) {
-				int a = q.poll();
-				if (before.contains(a)) {
+			if (!minQueue.isEmpty()) {
+				int a = minQueue.poll();
+				if (maxQueue.contains(a)) {
 					answer[1] = a;
 					break;
 				}
@@ -58,9 +58,9 @@ public class Main_이중우선순위큐 {
 			}
 		}
 		while (true) {
-			if (!before.isEmpty()) {
-				int a = before.poll();
-				if (q.contains(a)) {
+			if (!maxQueue.isEmpty()) {
+				int a = maxQueue.poll();
+				if (minQueue.contains(a)) {
 					answer[0] = a;
 					break;
 				}
