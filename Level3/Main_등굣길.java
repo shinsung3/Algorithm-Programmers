@@ -1,0 +1,37 @@
+import java.util.Arrays;
+
+public class Main_등굣길 {
+
+	public static void main(String[] args) {
+		int m = 4;
+		int n = 3;
+		int[][] p = { { 2, 2 } };
+		int a = solution(m, n, p);
+		System.out.println(a);
+	}
+
+	static int solution(int m, int n, int[][] puddles) {
+        int answer = 0;
+        int[][] map = new int[n][m];
+        for(int i=0; i<puddles.length; i++) {
+        	map[puddles[i][1]-1][puddles[i][0]-1] = -1;
+        }
+        for(int i=0; i<m; i++) {
+        	map[0][i] = 1;
+        }
+        for(int i=0; i<n; i++) {
+        	map[i][0] = 1;
+        }
+        
+        for(int i=1; i<n; i++) {
+        	for(int j=1; j<m; j++) {
+        		if(map[i][j]==0)
+        			map[i][j] = (Math.max(map[i-1][j], map[i][j-1])+1)%1000000007;
+        	}
+        }
+        for(int[] a: map)
+        	System.out.println(Arrays.toString(a));
+        answer = map[n-1][m-1];
+        return answer;
+    }
+}
