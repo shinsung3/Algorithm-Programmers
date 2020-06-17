@@ -59,6 +59,7 @@
 - [정수 삼각형](https://tlstjd436.blog.me/221986732668) - DP
 - [야근지수](https://tlstjd436.blog.me/221989563405) - 우선순위 큐
 - [멀리 뛰기](https://tlstjd436.blog.me/221993630748) - DP
-- [타일 장식물](https://tlstjd436.blog.me/221982815483)
-- [이중우선순위큐](https://tlstjd436.blog.me/221997846873)
-- [예산]
+- [타일 장식물](https://tlstjd436.blog.me/221982815483) - DP
+- [이중우선순위큐](https://tlstjd436.blog.me/221997846873) - 우선순위 큐
+- [예산](https://tlstjd436.blog.me/222003158461) - 우선순위 큐 
+- [등굣길] - DP
