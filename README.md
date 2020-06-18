@@ -62,4 +62,5 @@
 - [타일 장식물](https://tlstjd436.blog.me/221982815483) - DP
 - [이중우선순위큐](https://tlstjd436.blog.me/221997846873) - 우선순위 큐
 - [예산](https://tlstjd436.blog.me/222003158461) - 우선순위 큐 
-- [등굣길] - DP
+- [등굣길](https://tlstjd436.blog.me/222004295760) - DP
+- [종이접기] - 그리디
