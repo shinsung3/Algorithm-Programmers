@@ -38,8 +38,8 @@ public class Main_등굣길 {
 					map[i][j] = (map[i - 1][j] + map[i][j - 1]) % 1000000007;
 			}
 		}
-		 for (int[] a : map)
-		 System.out.println(Arrays.toString(a));
+		for (int[] a : map)
+			System.out.println(Arrays.toString(a));
 		answer = map[n - 1][m - 1];
 		return answer;
 	}
