@@ -13,23 +13,23 @@ public class Main_가장긴펠린드롬 {
 		int idx = 1;
 		int left = 0;
 		int right = 0;
-		if(s.length()==2) {
-			if(s.charAt(0)==s.charAt(1))
+		if (s.length() == 2) {
+			if (s.charAt(0) == s.charAt(1))
 				return 2;
 			else
 				return 1;
 		}
-		
-		if(s.length()==3) {
-			if(s.charAt(0)==s.charAt(2))
+
+		if (s.length() == 3) {
+			if (s.charAt(0) == s.charAt(2))
 				return 3;
-			if(s.charAt(0)==s.charAt(1)||s.charAt(1)==s.charAt(2))
+			if (s.charAt(0) == s.charAt(1) || s.charAt(1) == s.charAt(2))
 				return 2;
 			return 1;
-				
+
 		}
-		
-		if(s.length()==1)
+
+		if (s.length() == 1)
 			return 1;
 		// 홀수 확인
 		while (true) {
@@ -49,13 +49,13 @@ public class Main_가장긴펠린드롬 {
 				}
 			}
 			if (cnt > 1) {
-				if(answer<cnt)
+				if (answer < cnt)
 					answer = cnt;
 			} else {
-				if(s.charAt(idx)==s.charAt(idx+1) || s.charAt(idx)==s.charAt(idx-1)) {
+				if (s.charAt(idx) == s.charAt(idx + 1) || s.charAt(idx) == s.charAt(idx - 1)) {
 					cnt++;
 				}
-				if(answer<cnt)
+				if (answer < cnt)
 					answer = cnt;
 			}
 			idx++;
@@ -74,7 +74,7 @@ public class Main_가장긴펠린드롬 {
 			right = idx + 1;
 			int cnt = 0;
 			if (s.charAt(idx) == s.charAt(idx + 1)) {
-				cnt=2;
+				cnt = 2;
 				while (true) {
 					left--;
 					right++;
@@ -90,7 +90,7 @@ public class Main_가장긴펠린드롬 {
 			}
 			idx++;
 			if (cnt > 2) {
-				if(answer<cnt)
+				if (answer < cnt)
 					answer = cnt;
 			}
 
