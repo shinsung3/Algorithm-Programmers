@@ -50,6 +50,7 @@
 -  [**영어 끝말잇기**] - Summer/Winter Coding(~2018)
 -  [괄호 변환](https://tlstjd436.blog.me/221971434161) - 2020 KAKAO BLIND RECRUITMENT
 - [가장 큰 수](https://tlstjd436.blog.me/221968276414)
+- [라면공장](https://tlstjd436.blog.me/221963497723)
 
 
 
@@ -63,4 +64,6 @@
 - [이중우선순위큐](https://tlstjd436.blog.me/221997846873) - 우선순위 큐
 - [예산](https://tlstjd436.blog.me/222003158461) - 우선순위 큐 
 - [등굣길](https://tlstjd436.blog.me/222004295760) - DP
-- [종이접기] - 그리디
+- [종이접기](https://tlstjd436.blog.me/222005292248) - 그리디
+- [펠린드롬](https://tlstjd436.blog.me/222008492920) - 문자열
+- 
