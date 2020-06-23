@@ -15,6 +15,8 @@ public class Main_단속카메라 {
 		List<Route> list = new ArrayList<>();
 		for (int[] a : routes)
 			list.add(new Route(a[0], a[1]));
+		
+		System.out.println(list);
 		Collections.sort(list, new Comparator<Route>() {
 			@Override
 			public int compare(Route o1, Route o2) {
@@ -26,6 +28,7 @@ public class Main_단속카메라 {
 					return -1;
 			}
 		});
+		System.out.println(list);
 
 		Route r = list.get(0);
 		for (int i = 1; i < list.size(); i++) {
