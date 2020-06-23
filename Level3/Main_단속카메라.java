@@ -33,6 +33,8 @@ public class Main_단속카메라 {
 		Route r = list.get(0);
 		for (int i = 1; i < list.size(); i++) {
 			Route cur = list.get(i);
+			System.out.println(r);
+			System.out.println(cur);
 			if (r.end > cur.end) {
 				r = cur;
 			} else if (r.end < cur.start) {
