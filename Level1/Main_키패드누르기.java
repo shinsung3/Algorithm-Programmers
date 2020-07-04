@@ -1,4 +1,4 @@
-public class Main {
+public class Main_키패드누르기 {
 
 	public static void main(String[] args) {
 		int[] pad = { 0 };
