@@ -68,7 +68,7 @@
 - [등굣길](https://tlstjd436.blog.me/222004295760) - DP
 - [종이접기](https://tlstjd436.blog.me/222005292248) - 그리디
 - [펠린드롬](https://tlstjd436.blog.me/222008492920) - 문자열
-- [최고의 집합] - 수학
+- [최고의 집합](https://tlstjd436.blog.me/222014298989) - 수학
 - [여행경로](https://tlstjd436.blog.me/222012730890) - BFS
 - [저울] - 그리디
 
