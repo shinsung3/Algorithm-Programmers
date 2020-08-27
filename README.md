@@ -73,8 +73,9 @@
 - [저울](https://tlstjd436.blog.me/222018403594) - 그리디
 - [숫자게임](https://tlstjd436.blog.me/222028820494) - Summer/Winter Coding(~2018)
 - [방문 길이](https://tlstjd436.blog.me/222038846661) - Summer/Winter Coding(~2018)
-- [자물쇠와 열쇠] - ﻿2020 KAKAO BLIND RECRUITMENT
+- [자물쇠와 열쇠](https://tlstjd436.blog.me/222056046026) - ﻿2020 KAKAO BLIND RECRUITMENT
 - [거스름 돈]
+- [N으로 표현] - DFS
 
 
 
