@@ -78,7 +78,7 @@
 - [N으로 표현](https://tlstjd436.blog.me/222068955015) - DFS
 - [순위](https://tlstjd436.blog.me/222072383577) - 플로이드 워셜
 - [불량사용자] - DFS
-- [길 찾기 게임] - 이진 탐색
+- [길 찾기 게임](https://tlstjd436.blog.me/222083832914) - 이진 탐색
 - [1차 추석 트래픽] - 2018 KAKAO BLIND RECRUITMENT
 
 
