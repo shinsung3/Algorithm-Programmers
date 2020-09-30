@@ -80,6 +80,7 @@
 - [불량사용자] - DFS
 - [길 찾기 게임](https://tlstjd436.blog.me/222083832914) - 이진 탐색
 - [1차 추석 트래픽] - 2018 KAKAO BLIND RECRUITMENT
+- [N-Queen]
 
 
 
